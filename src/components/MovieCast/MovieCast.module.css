@@ -1,0 +1,36 @@
+/* MovieCast.module.css */
+
+.container {
+    margin-top: 20px;
+}
+
+.castList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.actor {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.actor img {
+    width: 80px;
+    height: 100px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.actor p {
+    margin: 0;
+}
+
+.expand {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
